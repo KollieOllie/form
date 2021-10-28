@@ -161,10 +161,14 @@ a {
 .style7 {
 	border-width: 0px;
 }
-.style11 {
+
+.style11-2 {
 	font-family: Arial;
 	font-size: x-small;
+  text-align: center;
 }
+
+
 .style13 {
 	font-family: Arial;
 	text-align: center;
@@ -172,7 +176,7 @@ a {
 	border-style: solid;
 	border-width: 1px;
       border-color: black;
-	padding: 1px 4px;
+	padding: 0px 0px;
 }
 .style14 {
 	text-align: left;
@@ -400,15 +404,411 @@ a {
 	font-family: Arial;
 	font-size: x-small;
 }
+
+@media print {
+    html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+  }
+
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /* font: inherit; */
+    /* vertical-align: baseline; */
+  }
+
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section,
+  img {
+    display: block;
+  }
+
+  /* body {
+    line-height: 1;
+  } */
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .style7 {
+    border-width: 0px;
+  }
+
+  .style11-2 {
+    font-family: Arial;
+    font-size: x-small;
+    text-align: center;
+  }
+
+
+  .style13 {
+    font-family: Arial;
+    text-align: center;
+    font-size: x-small;
+    border-style: solid;
+    border-width: 1px;
+        border-color: black;
+    padding: 0px 0px;
+  }
+  .style14 {
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+        border-color: black;
+    padding: 1px 4px;
+  }
+  .style15 {
+    text-align: left;
+  }
+  .style16 {
+    font-size: smaller;
+  }
+  .style17 {
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  .style18 {
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 4px;
+    background-color: #66CCFF;
+        border-color: black;
+
+  }
+  .style19 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+  }
+  .style20 {
+    margin-bottom: 0px;
+  }
+  .style21 {
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 4px;
+        border-color: black;
+  }
+  .style22 {
+    font-family: Arial;
+    font-size: x-small;
+    border-left-style: none;
+    border-left-width: medium;
+        border-left-color: black;
+    border-right-style: none;
+    border-right-width: medium;
+        border-right-color: black;
+    border-top-style: none;
+    border-top-width: medium;
+        border-top-color: black;
+  }
+  .style24 {
+    font-family: Arial;
+    font-size: x-small;
+    border-left-style: solid;
+    border-left-width: 1px;
+        border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+        border-right-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+  }
+  .style25 {
+    font-family: Arial;
+    font-size: x-small;
+    text-align: center;
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-width: medium;
+  }
+  .style27 {
+    font-family: Arial;
+    font-size: x-small;
+    text-align: center;
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-width: medium;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+  }
+  .style28 {
+    margin-top: 0px;
+  }
+  .style29 {
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+        border-color: black;
+  }
+  .style30 {
+    border-style: solid;
+    border-width: 1px;
+        border-color: black;
+  }
+  .style32 {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+  }
+  .style33 {
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+        border-color: black;
+  }
+  .style35 {
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-style: solid;
+    border-top-width: 1px;
+        border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+  }
+  .style36 {
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top: medium none white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+  }
+  .style37 {
+    border-collapse: collapse;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+  }
+  .style38 {
+    border-collapse: collapse;
+  }
+  .style39 {
+    text-align: right;
+  }
+  .style40 {
+    font-family: Arial;
+    font-size: x-small;
+    border-left-style: solid;
+    border-left-width: 1px;
+        border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+        border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+        border-top-color: black;
+  }
+  .style41 {
+    font-family: Arial;
+    font-size: x-small;
+    border-left-style: solid;
+    border-left-width: 1px;
+        border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+        border-right-color: black;
+  }
+  .style42 {
+    border-width: 0px;
+    border-collapse: collapse;
+  }
+  .style43 {
+    font-size: x-small;
+    border-left-style: solid;
+    border-left-width: 1px;
+        border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+        border-right-color: black;
+  }
+  .style44 {
+    font-size: x-small;
+    border-left-style: solid;
+    border-left-width: 1px;
+        border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+        border-right-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+  }
+  .style45 {
+    margin-top: 10px;
+  }
+  .style46 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+    font-family: Arial;
+    font-size: x-small;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 1px;
+        border-top-color: black;
+  }
+  .style47 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+        border-bottom-color: black;
+    font-family: Arial;
+    font-size: x-small;
+    text-align: center;
+  }
+  .style50 {
+    text-align: left;
+    font-family: Arial;
+    font-size: x-small;
+  }
+}
+
 </style>
 
 </head>
 </header>
 <body>
 
-  <div style="position: absolute; width: 617px; height: 930px; z-index: 1; left: 10px; top: 15px" id="layer1" class="style13">
+  <div style="position: absolute; width: 617px; height: 900px; z-index: 1; left: 10px; top: 15px;" id="layer1" class="style13">
     <div style="position: absolute; width: 601px; height: 90px; z-index: 1; left: 6px; top: 88px" id="layer5" class="style14">
-      <strong style="line-height: 12px; display: block;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <strong style="line-height: 12px; display: block; margin-bottom: 5px;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
       Зразок заповнення платіжного доручення
       </strong>
       <strong style="line-height: 12px; display: inline-block">
@@ -427,10 +827,11 @@ a {
       </strong><br />
       <br />
       <br />
+      <br />
       <strong>
         Банк отримувача&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </strong>
-        <div style="position: absolute; width: 185px; height: 29px; z-index: 2; left: 291px; top: 26px" id="layer11" class="style13"></div>
+        <div style="position: absolute; width: 195px; height: 26px; z-index: 2; left: 291px; top: 30px" id="layer11" class="style13"></div>
     </div>
     <img style="float: left" src="IMG/Logo.png" width="200" height="84" /><div style="position: absolute; width: 478px; height: 107px; z-index: 3; left: 137px; top: 211px" id="layer35">
     <table style="width: 100%; height: 92px" class="style42">
@@ -461,7 +862,7 @@ a {
       </tr>
     </table>
   </div>
-    <div style="position: absolute; width: 84px; height: 12px; z-index: 40; left: 442px; top: 732px" id="layer34" class="style17">
+    <div style="position: absolute; width: 84px; height: 12px; z-index: 40; left: 442px; top: 727px" id="layer34" class="style17">
       <strong><Node_Inform paramname="IBS_POSTACH_FIO1" /></strong></div>
     <div style="position: absolute; width: 93px; height: 7px; z-index: 4; left: 28px; top: 213px" id="layer33" class="style17">
       <strong>Постачальник:</strong></div>
@@ -472,8 +873,8 @@ a {
           <td class="style19" style="width: 70px"><strong><Bill_Inform paramname="DATEPAYBILL" format="dd.MM.yyyy" /></strong></td>
         </tr>
       </table>
-      <div class="style39" style="position: absolute; width: 77px; height: 16px; z-index: 10; right: -18px; top: 40px"><strong>Виписав&#58;</strong></div>
-      <div class="style39" style="position: absolute; width: 87px; height: 16px; z-index: 10; right: -28px; top: 60px">
+      <div class="style39" style="position: absolute; width: 77px; height: 16px; z-index: 10; right: -18px; top: 30px"><strong>Виписав&#58;</strong></div>
+      <div class="style39" style="position: absolute; width: 87px; height: 16px; z-index: 10; right: -28px; top: 50px">
       <tr style="position: relative">
           <td>
             <p style="margin-block: 0; display: block; position: absolute; z-index: -10; font-weight: 700">
@@ -497,10 +898,10 @@ a {
         </tr>
       </table>
     </div>
-    <div style="position: absolute; width: 592px; height: 24px; z-index: 8; left: 19px; top: 837px" id="layer29">
-      <strong>УВАГА!<br /> В призначенні платежу обов&#39;язково вказати номер даного 
+    <div style="position: absolute; width: 592px; height: 24px; z-index: 8; left: 19px; top: 827px" id="layer29">
+      <strong style="display: block; margin-bottom: 5px;">УВАГА!<br /> В призначенні платежу обов&#39;язково вказати номер даного 
       рахунку № <Bill_Inform paramname="NUMBILL" /> (без пробілів)!<br />
-      У разі недотримання цієї умови оплата може бути не зарахована! <br><br>
+      У разі недотримання цієї умови оплата може бути не зарахована! <br>
       </strong>
       <strong style="position: absolute; height: 50px; z-index: 8; left: 1px; width: 592px;">
         Звернення, скаргу або претензію стосовно якості постачання електричної енергії та повідомити про загрозу електробезпеки можна за допомогою форми зворотного зв’язку на сайті https://energum.com/ ,  а також по телефонам: (044) 291-50-35, (066) 925-29-01.
@@ -595,27 +996,27 @@ a {
       дозволяє споживачам отримати оперативну інформацію про діючі тарифи на 
       послуги електро- та газопостачання, знайти відповіді на актуальні 
       запитання, оцінити роботу операторів мереж та постачальників газу і 
-      електроенергії . Мобільний додаток можна завантажити з <strong>Google 
+      електроенергії . Мобільний додаток можна зкодавантажити з <strong>Google 
       Play</strong> та <strong>App Store</strong> за назвою </span><strong>
       <span class="style16">EnergyOnline</span></strong>.</div>
-    <div style="position: absolute; width: 620px; height: 83px; z-index: 2; left: 3px; top: 1px" id="layer6" class="style15">
+    <div style="position: absolute; width: 620px; height: 75px; z-index: 2; left: 3px; top: 1px" id="layer6" class="style15">
     </div>
-    <div style="position: absolute; width: 185px; height: 12px; z-index: 2; left: 298px; top: 151px" id="layer19" class="style13">
+    <div style="position: absolute; width: 195px; height: 14px; z-index: 2; left: 298px; top: 151px" id="layer19" class="style13">
       <strong><Node_Inform nodedenom="FIRMA" paramname="IBS_NDOG" /></strong> 
       <!-- поставить путь !!!  -->
     </div>
-    <div style="position: absolute; width: 117px; height: 12px; z-index: 2; left: 149px; top: 151px" id="layer13" class="style13">
+    <div style="position: absolute; width: 117px; height: 14px; z-index: 2; left: 149px; top: 151px" id="layer13" class="style13">
       <strong><Node_Inform paramname="IBS_POSTACH_MFO" /></strong></div>
-    <div style="position: absolute; width: 62px; height: 48px; z-index: 2; left: 496px; top: 115px; bottom: 709px" id="layer14" class="style13">
+    <div style="position: absolute; width: 62px; height: 48px; z-index: 2; left: 510px; top: 119px; bottom: 709px" id="layer14" class="style13">
     </div>
-    <div style="position: absolute; width: 135px; height: 7px; z-index: 4; left: 9px; top: 118px" id="layer20" class="style17">
+    <div style="position: absolute; width: 135px; height: 7px; z-index: 4; left: 9px; top: 125px" id="layer20" class="style17">
       <strong>&nbsp;Код</strong></div>
     <div style="position: absolute; width: 94px; height: 10px; z-index: 4; left: 29px; top: 391px" id="layer21" class="style17">
       <strong>Договір:</strong></div>
     <div style="position: absolute; width: 135px; height: 7px; z-index: 4; left: 10px; top: 152px" id="layer15" class="style15">
       <strong>&nbsp;<Node_Inform paramname="IBS_POSTACH_BANK" /></strong></div>
-    <div style="position: absolute; width: 58px; height: 7px; z-index: 4; left: 311px; top: 127px" id="layer16">
-      <strong><Node_Inform paramname="IBS_POSTACH_BILL" /></strong></div>
+    <div style="position: absolute; width: 58px; height: 7px; z-index: 4; left: 307px; top: 127px" id="layer16" class="style11-2">
+      <strong>UA913004650000026039300718017</strong></div>
     <div style="position: absolute; width: 599px; height: 19px; z-index: 5; left: 7px; top: 182px" id="layer18" class="style18">
       <table style="width: 95%" class="style20">
         <tr>
@@ -632,8 +1033,8 @@ a {
     <div style="position: absolute; width: 93px; height: 7px; z-index: 4; left: 28px; top: 321px" id="layer37" class="style17">
       <strong>Споживач:</strong></div>
   </div>
-  <div style="position: absolute; width: 117px; height: 12px; z-index: 2; left: 160px; top: 131px" id="layer2" class="style13">
-    <strong><Node_Inform paramname="IBS_POSTACH_EDRPOU" /></strong></div>
+  <div style="position: absolute; width: 117px; height: 14px; z-index: 2; left: 160px; top: 144px" id="layer2" class="style13">
+    <strong>39568531</strong></div>
   <div style="position: absolute; width: 520px; height: 17px; z-index: 3; left: 97px; top: 403px; bottom: 448px" id="layer25" class="style21">
     <table style="width: 100%" class="style7">
       <tr>
@@ -662,7 +1063,7 @@ a {
     </table>
   </div>
 
-  <div style="position: absolute; width: 114px; height: 115px; z-index: -25; left: 329px; top: 706px" id="layer30">
+  <div style="position: absolute; width: 114px; height: 115px; z-index: -25; left: 329px; top: 700px" id="layer30">
     <img style="float: left" src="IMG/round.png" width="125" height="121"/></div>
   <div style="position: absolute; width: 500px; height: 38px; z-index: 9; left: 111px; top: 633px" id="layer36" class="style45">
     <table style="width: 100%; height: 32px; margin-left: 15px;" class="style38">
